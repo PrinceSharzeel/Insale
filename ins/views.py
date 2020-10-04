@@ -359,9 +359,9 @@ def rempic(request, pic):
 from requests_oauthlib import OAuth2Session
 from requests_oauthlib.compliance_fixes import facebook_compliance_fix
 
-client_id = "1787910094571162"
-client_secret = "705b9cfa4c84d5df4b3b110a96bf8ea5"
-redirect_uri = "http://www.myholidaynetwork.com/signup/"
+client_id = ""
+client_secret = ""
+redirect_uri = ""
 if django_settings.DEBUG:
     redirect_uri = "http://localhost:8000/signup/"
 fb_state = ""
