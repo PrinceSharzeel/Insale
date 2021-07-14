@@ -1,1 +1,1 @@
-web: gunicorn ins.wsgi --log-file -
+web: gunicorn insale.wsgi --log-file -
