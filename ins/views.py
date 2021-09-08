@@ -16,7 +16,7 @@ import datetime
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 from django.views.decorators.csrf import csrf_exempt
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.conf import settings as django_settings
 
 import json, random, string, ast, os
